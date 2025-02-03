@@ -1,0 +1,5 @@
+#!/bin/sh
+
+output="$(../bin/ts-check --no-color error.ts)"
+template="$(cat ./template)"
+test "$output" = "$template"

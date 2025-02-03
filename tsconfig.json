@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "types": ["node"],
+    "lib": ["esnext"],
+
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": false,
+    "allowSyntheticDefaultImports": true,
+
+    "strict": true,
+    "noUncheckedIndexedAccess": false,
+    "noImplicitOverride": true,
+  },
+
+  "exclude": ["**/dist", "**/test", "**/node_modules"]
+}

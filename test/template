@@ -1,0 +1,17 @@
+error.ts:1:13 - error TS2304: Cannot find name 'undefinedVariable'.
+
+1 console.log(undefinedVariable);
+              ~~~~~~~~~~~~~~~~~
+
+error.ts:4:3 - error TS2322: Type 'Promise<boolean>' is not assignable to type 'Boolean'.
+  The types returned by 'valueOf()' are incompatible between these types.
+    Type 'Object' is not assignable to type 'boolean'.
+
+4   new Promise<boolean>((resolve) => {
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5     resolve(false);
+  ~~~~~~~~~~~~~~~~~~~
+6   });
+  ~~~~
+
+Total errors: 2
