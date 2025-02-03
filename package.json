@@ -25,7 +25,7 @@
     "ts-check": "./bin/ts-check"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "peerDependencies": {
     "typescript": ">=5"
