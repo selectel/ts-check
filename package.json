@@ -5,8 +5,8 @@
   "repository": "selectel/ts-check",
   "license": "MIT",
   "scripts": {
-    "lint:eslint": "eslint --config eslint.config.mjs lib/*.ts",
-    "lint:prettier": "prettier --config ./.prettierrc -c lib/*.ts",
+    "lint:eslint": "eslint --config eslint.config.mjs lib/",
+    "lint:prettier": "prettier --config ./.prettierrc -c lib/",
     "lint": "npm run lint:prettier && npm run lint:eslint",
     "test": "cd ./test && ./run",
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
